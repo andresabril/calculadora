@@ -11,7 +11,7 @@ function mul(){
 }
 
 function div(){
-	echo "$1 / $3"|bc
+	echo "scale=10; $1 / $3"|bc
 }
 
 if [ "$2" == "+" ]; then
